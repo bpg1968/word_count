@@ -1,0 +1,16 @@
+#ifndef WC_H
+#define WC_H
+
+// user-defined exit codes
+// (should be restricted to the range 64 - 113)
+#define IO_ERROR 64
+#define IMPROPER_USAGE 65
+
+void usage(char*);
+int count_words(char*);
+int count_chars(char*);
+void *process_line(void*);
+
+#endif /* WC_H */
+
+// END
